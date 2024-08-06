@@ -41,4 +41,4 @@ Disparity mapping allows for accurate 3D reconstruction of a scene by leveraging
 ![Example Disparity Map](/media/left_eye_30cm.jpg)
 ![Example Disparity Map](/media/right_eye_30cm.jpg)
 
-![Example Disparity Map](path/to/your/image.png)
+![Example Disparity Map](/media/results.png)
