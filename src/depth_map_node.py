@@ -36,3 +36,10 @@ class DepthMapNode:
             disparity = self.depthmap.compute_depth_map_sgbm()
             depth_msg = self.bridge.cv2_to_imgmsg(disparity, "32FC1")
             self.depth_pub.publish(depth_msg)
+
+if __name__ == '__main__':
+    try:
+        node = DepthMapNode()
+        rospy.spin()
+    except rospy.ROSInterruptException:
+        pass
