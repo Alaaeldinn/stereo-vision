@@ -5,7 +5,7 @@
 Stereo vision is a technique used to obtain depth information from two or more images of the same scene taken from slightly different viewpoints. By analyzing the disparity between these images, we can estimate the 3D structure of the scene. This repository focuses on implementing disparity mapping to achieve depth estimation using stereo vision.
 
 
-![Example Disparity Map](/media/illustrate.png)
+![Example Disparity Map](/media/illustrate.jpeg)
 
 
 ## The Idea
